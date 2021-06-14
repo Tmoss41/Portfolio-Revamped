@@ -1,0 +1,22 @@
+#project-main{
+    display: flex;
+    section{
+        width: 45%;
+        height: 150px;
+        color:#0c0f16;
+        margin: 5px;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        box-shadow: rgb(73, 68, 68) 2px 5px;
+        img{
+            overflow:hidden;
+            width: 100%;
+            height: auto;
+            border: none;
+        }
+    }
+}
+
+h1{
+    text-align: center;
+}
