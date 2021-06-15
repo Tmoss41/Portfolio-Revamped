@@ -1,6 +1,6 @@
 html {
   background-color: white;
-  color: #cccccc;
+  color: #0c0f16;
 }
 
 h2 {
@@ -14,6 +14,7 @@ body {
 #index-main {
   margin: 20% 15%;
   width: 70%;
+  height: 750px;
 }
 #index-main article {
   text-align: center;
