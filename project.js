@@ -21,5 +21,6 @@ const projects = [{
         projectCard.appendChild(title)
         const test = document.getElementById('test')
         const section = document.getElementById('project-scroll')
+        projectCard.style.borderRadius = '15px'
         section.insertBefore(projectCard, test);
     }

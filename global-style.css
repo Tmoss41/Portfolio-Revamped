@@ -91,6 +91,7 @@ img {
 
 .project-item {
   width: 100%;
+  border-radius: 15px;
 }
 .project-item img {
   width: 100%;
@@ -123,6 +124,15 @@ nav {
   position: fixed;
   width: 100%;
   background-color: #0c0f16;
+}
+
+#icons {
+  display: flex;
+}
+#icons img {
+  width: 40%;
+  height: auto;
+  filter: brightness(0) invert(1);
 }
 
 ::-webkit-scrollbar {
