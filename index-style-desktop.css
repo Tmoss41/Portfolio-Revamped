@@ -1,0 +1,44 @@
+@media screen and (min-width: 600px) {
+  .carousel {
+    width: 50%;
+  }
+
+  .carousel-item {
+    width: 50%;
+  }
+
+  .project-item {
+    width: 100%;
+  }
+  .project-item img {
+    width: 100%;
+  }
+
+  #project-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  #top {
+    height: 100px;
+  }
+  #top img {
+    width: 5%;
+    height: auto;
+  }
+
+  #project-scroll {
+    display: flex;
+    justify-content: center;
+  }
+  #project-scroll figure {
+    height: 300px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=index-style-desktop.css.map */

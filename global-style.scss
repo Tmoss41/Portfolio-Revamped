@@ -97,8 +97,6 @@ img{
 }
 #project-scroll{
     width: 100%;
-    // background-color: whitesmoke;
-    // height: 150px;
     figure{
         width: 90%;
         height:100px;
@@ -143,22 +141,3 @@ nav{
       height: auto;
       margin-left: 90%;
   }
-@media screen and (min-width: 600px) {
-    .carousel{
-        width: 50%;
-    }
-    .carousel-item{
-        width: 50%;
-    }
-    .project-item{
-        width: 100%;
-        img{
-            width: 100%;
-        }
-    }
-    #project-main{
-        display: flex;
-        justify-content: center;
-    }
-   
-}
