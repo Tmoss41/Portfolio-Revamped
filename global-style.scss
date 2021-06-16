@@ -1,6 +1,6 @@
 html{
     background-color: white;//#0c0f16;
-    color: rgb(204, 204, 204)
+    color: #0c0f16
 }
 h2{
     text-align: center;
@@ -11,6 +11,7 @@ body{
 #index-main{
     margin: 20% 15%;
     width: 70%;
+    height: 750px;
     article{
         text-align: center;
         padding: 20px;
@@ -82,6 +83,7 @@ img{
 }
 .project-item{
     width: 100%;
+    border-radius: 15px;
     img{
         width: 100%;
     }
@@ -113,6 +115,14 @@ nav{
    position: fixed;
    width: 100%;
    background-color: #0c0f16
+}
+#icons{
+    display: flex;
+    img{
+        width: 40%;
+        height: auto;
+        filter: brightness(0) invert(1);
+    }
 }
 ::-webkit-scrollbar {
     width: 5px;
