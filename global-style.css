@@ -158,24 +158,26 @@ nav {
 }
 
 @media screen and (min-width: 600px) {
-  .carousel {
-    width: 50%;
+  #bars {
+    display: none;
   }
 
-  .carousel-item {
-    width: 50%;
-  }
-
-  .project-item {
-    width: 100%;
-  }
-  .project-item img {
-    width: 100%;
-  }
-
-  #project-main {
+  #navbar {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  #navbar div a {
+    width: 50%;
+    height: auto;
+  }
+
+  #top {
+    height: 50px;
+  }
+  #top #logo {
+    width: 5%;
+    height: auto;
   }
 }
 

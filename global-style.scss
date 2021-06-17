@@ -141,3 +141,24 @@ nav{
       height: auto;
       margin-left: 90%;
   }
+@media screen and (min-width: 600px) {
+    #bars{
+        display:none;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        div a{
+            width: 50%;
+            height: auto;
+        }
+    }
+    #top{
+        height: 50px;
+        #logo{
+             width: 5%;
+             height: auto;
+        }
+    }
+}

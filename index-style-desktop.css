@@ -19,14 +19,6 @@
     justify-content: center;
   }
 
-  #top {
-    height: 100px;
-  }
-  #top img {
-    width: 5%;
-    height: auto;
-  }
-
   #project-scroll {
     display: flex;
     justify-content: center;
